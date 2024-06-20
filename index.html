@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MILENA - PASTAS FRESCAS</title>
+
+    <!---Bootstrap--->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!---Bootstrap icons--->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!---Fonts--->
+  
+    <!---Fonts END--->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!---CSS--->
+    <link rel="stylesheet" href="Css/Styles.css">
+
+    <!---Owl carrousel--->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+</head>
+
+<body oncontextmenu='return false'>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container d-flex justify-content-between align-items-center">
+                <img src="/Img/logo-milena.png" alt="Logo principal Fideos" class="logo-principal">
+
+                <div class="d-lg-none">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse justify-content-end ms-5 me-3" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link hover-underline active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hover-underline" href="preguntasFrecuentes.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hover-underline" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hover-underline" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hover-underline" href="productos.html">Productos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="background-section py-5" id="fondo-presentacion">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="content text-center">
+                    <h1 class="text-white display-2 fw-bolder">Hechas con amor y tradición</h1>
+                    <p class="text-white fs-4">Descubrí toda la variedad de pastas que tenemos para ofrecerte</p>
+                    <div>
+                        <a class="btn btn-warning btn-lg" href="productos.html" data-abc="true">Ver Más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="patronFondo p-0">
+
+        <section class="py-5" id="cards">
+            <h2 class="text-black text-center fw-bolder pt-3">Novedades</h2>
+            <p class="text-center">¡Innovación y sabor en nuestras nuevas pastas!</p>
+
+            <div class="container mt-5">
+                <div class="owl-carousel owl-theme">
+
+                    <!-- Producto 1 -->
+                    <div class="item">
+                        <div class="card mb-3">
+                            <a class="card-img-tiles" href="#" data-abc="true">
+                                <div class="inner">
+                                    <div class="main-img bg-black rounded">
+                                        <div class="text-center"><img src="Img/Spaghetti.png" alt="Fideos Codito"
+                                                class="img-cards"></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Spaghetti</h4>
+                                <p>Por 500g.</p>
+                                <p class="text-muted">$2500</p>
+                                <a class="btn btn-outline-warning btn-sm" href="productos.html"
+                                    data-abc="true">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Producto 2 -->
+                    <div class="item">
+                        <div class="card mb-3">
+                            <a class="card-img-tiles" href="#" data-abc="true">
+                                <div class="inner">
+                                    <div class="main-img bg-black rounded">
+                                        <div class="text-center"><img src="Img/nioquis.png" alt="Fideos Codito"
+                                                class="img-cards"></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Ñoquis de papa</h4>
+                                <p>Por 500g.</p>
+                                <p class="text-muted">$2500</p>
+                                <a class="btn btn-outline-warning btn-sm" href="productos.html"
+                                    data-abc="true">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Producto 3 -->
+                    <div class="item">
+                        <div class="card mb-3">
+                            <a class="card-img-tiles" href="#" data-abc="true">
+                                <div class="inner">
+                                    <div class="main-img bg-black rounded">
+                                        <div class="text-center"><img src="Img/Ravioles.png" alt="Fideos Codito"
+                                                class="img-cards"></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Ravioles</h4>
+                                <p>Por 500g.</p>
+                                <p class="text-muted">$2500</p>
+                                <a class="btn btn-outline-warning btn-sm" href="productos.html"
+                                    data-abc="true">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Producto 4 -->
+                    <div class="item">
+                        <div class="card mb-3">
+                            <a class="card-img-tiles" href="#" data-abc="true">
+                                <div class="inner">
+                                    <div class="main-img bg-black rounded">
+                                        <div class="text-center"><img src="Img/Fideos Codito.png" alt="Fideos Codito"
+                                                class="img-cards"></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Fideos Codito</h4>
+                                <p>Por 500g.</p>
+                                <p class="text-muted">$2500</p>
+                                <a class="btn btn-outline-warning btn-sm" href="productos.html"
+                                    data-abc="true">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Producto 5 -->
+                    <div class="item">
+                        <div class="card mb-3">
+                            <a class="card-img-tiles" href="#" data-abc="true">
+                                <div class="inner">
+                                    <div class="main-img bg-black rounded">
+                                        <div class="text-center"><img src="Img/Masa.png" alt="Fideos Codito"
+                                                class="img-cards"></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Masa para pasta</h4>
+                                <p>Por 500g.</p>
+                                <p class="text-muted">$2500</p>
+                                <a class="btn btn-outline-warning btn-sm" href="productos.html"
+                                    data-abc="true">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Producto 6 -->
+                    <div class="item">
+                        <div class="card mb-3">
+                            <a class="card-img-tiles" href="#" data-abc="true">
+                                <div class="inner">
+                                    <div class="main-img bg-black rounded">
+                                        <div class="text-center"><img src="Img/Sorrentinos.jpg" alt="Fideos Codito"
+                                                class="img-cards"></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Sorrentinos</h4>
+                                <p>Por 500g.</p>
+                                <p class="text-muted">$2500</p>
+                                <a class="btn btn-outline-warning btn-sm" href="productos.html"
+                                    data-abc="true">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="row">
+                <h2 class="text-black text-center fw-bolder">Beneficios</h2>
+                <p class="py-1 text-center">
+                    Disfrutá de nuestros increíbles beneficios y sentí la diferencia en cada bocado.
+                </p>
+            </div>
+        </div>
+
+        <section class="container d-flex justify-content-around flex-lg-row flex-column gap-5 mt-2 pb-5">
+
+            <!-- Card 1 -->
+            <div class="card">
+                <div class="d-flex flex-column align-items-start ms-3 gap-3 mt-3">
+                    <img src="Img/icons8-spaghetti-75.png" alt="Autenticidad Italiana" height="60">
+                    <h5 class="card-title fw-bolder mb-0">Autenticidad Italiana</h5>
+                </div>
+
+                <div class="card-body">
+                    En Milena, utilizamos recetas tradicionales italianas transmitidas de generación en generación,
+                    asegurando que cada plato tenga el auténtico sabor de Italia. Nuestra herencia culinaria se refleja
+                    en
+                    cada porción de pasta que servimos.
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <div class="d-flex flex-column align-items-start ms-3 gap-3 mt-3">
+                    <img src="Img/icons8-medalla-90.png" alt="Calidad Superior" height="60">
+                    <h5 class="card-title fw-bolder mb-0">Calidad Superior</h5>
+                </div>
+
+                <div class="card-body">
+                    Nuestras pastas se preparan con ingredientes frescos y de alta calidad, utilizando tecnología
+                    moderna y
+                    cumpliendo con los más altos estándares de seguridad alimentaria. Esto garantiza un producto
+                    delicioso y
+                    saludable en cada bocado.
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <div class="d-flex flex-column align-items-start ms-3 gap-3 mt-3">
+                    <img src="Img/icons8-family-75.png" alt="Experiencia Familiar" height="60">
+                    <h5 class="card-title fw-bolder mb-0">Experiencia Familiar</h5>
+                </div>
+
+                <div class="card-body">
+                    Milena no solo ofrece productos, sino una experiencia completa. Cada sucursal está diseñada para
+                    hacerte
+                    sentir como en casa, creando un ambiente cálido y acogedor. Nuestros clientes vuelven porque se
+                    sienten
+                    parte de una gran familia que disfruta del buen comer juntos.
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Fondo parallax -->
+    <div class="parallax"></div>
+
+    <div class="patronFondo p-0">
+
+        <section class="pt-5 pb-5" id="carusel-cards">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-black text-center fw-bolder">Que opinan nuestros clientes</h2>
+                    <p class="py-1 text-center">Lee las experiencias de quienes ya disfrutan de nuestras pastas.</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="owl-carousel owl-theme">
+                        <!----------- Carousel cards 1 ------------>
+                        <div class="card">
+                            <img class="img-fluid showMore600px" alt="User Avatar"
+                                src="Img/Testimonios/Persona1Menor.jpg">
+                            <img class="img-fluid hideMore600px" alt="User Avatar"
+                                src="Img/Testimonios/Persona1Mayor.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Julieta</h4>
+                                <p class="card-text fst-italic">
+                                    "Como vegetariana, a veces es difícil encontrar pastas que
+                                    realmente me gusten, pero Milena lo logró.
+                                    Tienen una gran variedad de opciones que se adaptan perfectamente a mi dieta y
+                                    siempre
+                                    son frescas y deliciosas. ¡Estoy encantada!"
+                                </p>
+                                <div class="d-flex justify-content-center gap-1">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!----------- Carousel cards 2 ------------>
+                        <div class="card">
+                            <img class="img-fluid showMore600px" alt="User Avatar"
+                                src="Img/Testimonios/Persona2Menor.jpg">
+                            <img class="img-fluid hideMore600px" alt="User Avatar"
+                                src="Img/Testimonios/Persona2Mayor.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Violeta</h4>
+                                <p class="card-text fst-italic">
+                                    "Probar las pastas de Milena fue una revelación. La calidad
+                                    es superior y el sabor es simplemente espectacular. Además, aprecio mucho que
+                                    ofrezcan
+                                    opciones
+                                    sin gluten para mis amigos con intolerancias alimentarias. ¡Muy recomendable para
+                                    todos!"
+                                </p>
+                                <div class="d-flex justify-content-center gap-1">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-----------  Carousel cards 3------------>
+                        <div class="card">
+                            <img class="img-fluid showMore600px" alt="User Avatar"
+                                src="Img/Testimonios/Persona3Menor.jpg">
+                            <img class="img-fluid hideMore600px" alt="User Avatar"
+                                src="Img/Testimonios/Persona3Mayor.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Manuel</h4>
+                                <p class="card-text fst-italic">
+                                    "Las pastas de esta fábrica son un golazo. Desde que las
+                                    probé, no quiero comprar en ningún otro lugar. La pasta rellena y los fideos de
+                                    remolacha
+                                    son especialmente deliciosos y siempre es un éxito en las cenas con amigos y
+                                    familiares."
+                                </p>
+                                <div class="d-flex justify-content-center gap-1">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!----------- Carousel cards 4 ------------>
+                        <div class="card">
+                            <img class="img-fluid showMore600px" alt="User Avatar"
+                                src="Img/Testimonios/Persona4Menor.jpg">
+                            <img class="img-fluid hideMore600px" alt="User Avatar"
+                                src="Img/Testimonios/Persona4Mayor.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Matias</h4>
+                                <p class="card-text fst-italic">
+                                    "Me encanta cocinar y las pastas de Milena me permitieron
+                                    llevar mis platos a otro nivel. La calidad es insuperable y siempre recibo elogios
+                                    por
+                                    mis comidas cuando uso sus productos.
+                                    ¡Una excelente elección para cualquier amante de la pasta!"
+                                </p>
+                                <div class="d-flex justify-content-center gap-1">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!----------- Carousel cards 5 ------------>
+                        <div class="card">
+                            <img class="img-fluid showMore600px" alt="User Avatar"
+                                src="Img/Testimonios/Persona5Menor.jpg">
+                            <img class="img-fluid hideMore600px" alt="User Avatar"
+                                src="Img/Testimonios/Persona5Mayor.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Rodolfo y María</h4>
+                                <p class="card-text fst-italic">
+                                    "Descubrimos esta fábrica de pastas hace unos meses y la
+                                    verdad que nos salvó las comidas familiares. La pasta siempre es fresca y rica,
+                                    especialmente
+                                    las sin gluten que son perfectas para nuestro nieto celíaco. ¡Muy recomendada!"
+                                </p>
+                                <div class="d-flex justify-content-center gap-1">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!----------- Carousel cards 6 ------------>
+                        <div class="card">
+                            <img class="img-fluid showMore600px" alt="User Avatar"
+                                src="Img/Testimonios/Persona6Menor.jpg">
+                            <img class="img-fluid hideMore600px" alt="User Avatar"
+                                src="Img/Testimonios/Persona6Mayor.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Pedro</h4>
+                                <p class="card-text fst-italic">
+                                    "Siempre fui exigente con la pasta, y Milena superó mis
+                                    expectativas. La frescura y el sabor son increíbles, la dedicación que ponen en cada
+                                    producto. Tienen una atención al cliente excelente,
+                                    siempre dispuestos a ayudar. ¡Amo estas pastas!"
+                                </p>
+                                <div class="d-flex justify-content-center gap-1">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!----------- Formulario ------------>
+        <section class="bg-dark py-3" id="newsletter">
+            <div class="container text-center text-white">
+                <div class="row pt-4">
+                    <div link="newsletter">
+                        <h2 class="fw-bolder">Newsletter</h2>
+                    </div>
+                    <p class="py-1">Suscribite a nuestro newsletter y enterate antes que nadie todas las
+                        novedades, ofertas y promociones especiales!</p>
+                </div>
+            </div>
+
+            <div class="container py-4">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <form>
+                            <div class="mb-3">
+                                <div class="input-group">
+                                    <input type="email" class="form-control" id="email" placeholder="Email"
+                                        aria-describedby="emailHelp" required>
+
+                                    <button class="btn btn-secondary" type="button" id="button-addon2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!----------- Footer ------------>
+    <div class="bg-black text-white">
+        <footer class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 ">
+                <div class="col mb-3">
+                    <p class="text-white">&copy; 2024 ORT Argentina</p>
+                </div>
+
+                <div class="col mb-3">
+
+                </div>
+
+                <div class="col mb-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Nosotros</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contacto</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Productos</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Medios de Pago</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Defensa al Consumidor</a></li>
+                    </ul>
+                </div>
+
+                <div class="col mb-3">
+                    <h5>Desarrollado por:</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Evelin Amarilla</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Cielo Martínez</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Rocio Espindola</a></li>
+                    </ul>
+                </div>
+
+                <div class="col mb-3">
+               
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">  1 Año - 2° Cuatrimestre - Año 2024
+                            Desarrollo II y Programación I</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="d-flex pt-3 pb-5 gap-4 justify-content-center align-items-center">
+                <a class="btn btn-light btn-lg circle" href="https://www.facebook.com/profile.php?id=100064659250605"
+                    target="_blank">
+                    <i class="bi bi-facebook"></i>
+                </a>
+
+                <a class="btn btn-light btn-lg circle"
+                    href="https://x.com/i/flow/login?redirect_after_login=%2Fmilenapastas" target="_blank">
+                    <i class="bi bi-twitter-x"></i>
+                </a>
+
+                <a class="btn btn-light btn-lg circle" href="https://www.instagram.com/milenapastasartesanales/"
+                    target="_blank">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <!--<footer class="bg-black">
+        <div class="container">
+            <div class="d-flex flex-md-row flex-column gap-3 gap-md-0 text-white align-items-center py-4">
+                <div class="col-12 col-md-4 text-start pt-2 pt-md-3">
+                    <ul>
+                        <li>
+                            <a href="contacto.html">Contacto</a>
+                        </li>
+                        <li>
+                            <a href="#">Medios de pago</a>
+                        </li>
+                        <li>
+                            <a href="#">Defensa del consumidor</a>
+                        </li>
+                    </ul>
+                </div>
+
+               
+
+                <div class="col-12 col-md-4 text-end pt-2 pt-md-3">
+                    <div class="fs-sm-5 footer-nombres mt-2">
+                        <strong>Desarrollado por:</strong>
+                        <p>Cielo Martínez </p>
+                        <p>Evelin Amarilla </p>
+                        <p>Rocio Espindola</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <p class="fs-sm-5 m-0 custom-text-center">
+            1 Año - 2° Cuatrimestre - Año 2024<br>
+            Desarrollo II y Programación I
+        </p>
+        <div class="container text-end text-white py-3 bg-black custom-text-right">
+            <p class="p-0 m-0">© 2024 ORT Argentina</p>
+        </div>
+    </footer>
+          
+        -->
+
+    <!-- Main JS -->
+    <script src="/JS/main.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- cdn de jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="/JS/carrousel-productos.js"></script>
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+
+    <!-- WPP PLUGIN -->
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-6899c798-de15-46e3-8261-26eda433c5c9" data-elfsight-app-lazy></div>
+</body>
+
+</html>
