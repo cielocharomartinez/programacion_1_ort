@@ -1,0 +1,107 @@
+.carrito {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.carrito a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.carrito a:hover {
+    color: #f1f1f1;
+}
+
+.carrito .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.img-limitada {
+    width: 100%;
+    height: auto;
+}
+
+.hide {
+    display: none !important;
+}
+
+.cart {
+    display: block;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 3px 17px;
+    border-radius: 50%;
+
+    padding: 16px;
+    background-color: #ffc107;
+
+    transition: 300ms;
+}
+
+.cart img {
+    height: 36px;
+    width: 35px;
+
+    transition: 300ms;
+}
+
+.cart:hover {
+    background-color: #d4a20b;
+}
+
+@media screen and (max-height: 450px) {
+    .carrito {
+        padding-top: 15px;
+    }
+
+    .carrito a {
+        font-size: 18px;
+    }
+}
+
+.productsContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.productsContaincer .card {
+    max-width: 250px;
+}
+
+.productsContaincer .card div {
+    min-height: 500px !important;
+}
+
+.card .titleProduct {
+    height: 70px !important;
+    margin: auto 0;
+    text-align: center !important;
+}
+
+.card .descProduct {
+    text-align: center !important;
+}

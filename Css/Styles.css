@@ -1,0 +1,312 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    overflow-x: hidden;
+}
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+#benefits {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+#benefits .benefit {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+#benefits .benefit:hover {
+    transform: translateY(-10px);
+}
+
+#benefits h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#benefits h3 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+
+#benefits p {
+    font-size: 1rem;
+}
+
+#products {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+#products h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#products .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+#products .card:hover {
+    transform: translateY(-10px);
+}
+
+#products .card img {
+    border-radius: 5px 5px 0 0;
+}
+
+#products .card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+#products .card-text {
+    font-size: 1rem;
+}
+
+#products .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+.footer-nombres p {
+    margin: 0;
+}
+
+.btn.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.btn.circle .bi {
+    font-size: 24px;
+    color: black;
+}
+
+.background-section {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    padding: 5rem 0;
+
+    margin-top: 77px;
+}
+
+#fondo-presentacion {
+    transition: background-image 0.5s;
+}
+
+.bg-1 {
+    background-image: url('/Img/Fideo-Presentacion.webp');
+}
+
+.bg-2 {
+    background-image: url('/Img/Ravioles-Presentacion.webp');
+}
+
+.bg-3 {
+    background-image: url('/Img/fondoFideos.webp');
+}
+
+.logo-principal {
+    height: 60px;
+    width: auto;
+}
+
+.background-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+}
+
+.navbar {
+    margin: 0 !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: 100;
+    width: 100%;
+
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 2.5rem;
+    }
+
+    #hero p {
+        font-size: 1rem;
+    }
+
+    #benefits .benefit {
+        margin-bottom: 30px;
+    }
+
+    #products .card {
+        margin-bottom: 30px;
+    }
+}
+
+/* ANCHO */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* FONDO */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* BOTON // RUEDITA // SCROLL */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* BOTON // RUEDITA // SCROLL ::: HOVER */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    cursor: s-resize;
+}
+
+.parallax {
+    background-image: url("/Img/Fondo\ parallax.webp");
+    min-height: 300px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.checked {
+    color: orange;
+}
+
+.ponerMargin {
+    margin-top: 7rem;
+}
+
+.ponerMargin-2 {
+    margin-top: 77px;
+}
+
+.col-12 a,
+.col-md-4 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.custom-text-center {
+    text-align: center;
+    color: white
+}
+
+.custom-text-right {
+    text-align: right;
+}
+
+.hover-underline {
+    position: relative;
+    display: inline-block;
+}
+
+.hover-underline::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: black;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.hover-underline:hover::after {
+    visibility: visible;
+    width: 100%;
+}
+
+.fondo-faq {
+    background-image: url('../Img/Capelettis.png');
+}
+
+.Fondo-contacto{
+    background-image: url('../Img/Mixfideos.jpg');
+}
+
+.Fondo-nosotros{
+    background-image: url('../Img/FIdeosGaleria.jpg');
+}
+
+.Fondo-productos{
+    background-image: url('../Img/nioquisGaleria.jpg');
+}
+.accordion-button:not(.collapsed) {
+    background-color: rgba(209, 197, 156, 0.5);
+}
+
+.patronFondo {
+    background-image: url('../Img/Textura.jpg');
+    background-size: cover;
+
+    padding: 2rem 0;
+}
+
+.showMore600px {
+    display: block;
+}
+
+.hideMore600px {
+    display: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .showMore600px {
+        display: none !important;
+    }
+
+    .hideMore600px {
+        display: block !important;
+    }
+}
